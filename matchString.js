@@ -47,7 +47,7 @@ async function readFiles() {
         
         if(parsedData) {
             // find the values for the key
-            const tagsValues = findKeyValues(parsedData, "logsource");
+            const tagsValues = findKeyValues(parsedData, "tags");
             
             // create output text
             let tagsValuesString = 'NA';
